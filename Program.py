@@ -29,9 +29,9 @@ if (answer == "goOd"):
 	print("Awesome", Name,"Enjoy the rest of it!")
 
 	
-input("**Hit Enter to Continue**: ")
+input("**Press Enter to Continue**: ")
 
-print("Lets see if I still remember your favorite color! **Hit Enter to continue**")
+print("Lets see if I still remember your favorite color! **Press Enter to continue**")
 
 input()
 
@@ -46,15 +46,15 @@ if(Color_input == "yes"):
 if(Color_input == "YES"):
 	print("Yeyy!! I got it right.... Im the most intelligent computer-bot!! :)")
 if(Color_input == "bad"):
-	print("Oh no! This is sad.. I may have to go back to bot school :( ")
+	print("Oh no! This is not good.. I may have to go back to bot school :( ")
 if(Color_input == "Bad"):
-	print("Oh no! This is sad.. I may have to go back to bot school :( ")
+	print("Oh no! This is not good.. I may have to go back to bot school :( ")
 if(Color_input == "BAD"):
-	print("Oh no! This is sad.. I may have to go back to bot school :( ")
+	print("Oh no! This is not good.. I may have to go back to bot school :( ")
 	
-input("**Hit Enter to Continue**: ")
+input("**Press Enter to Continue**: ")
 
-print("It has been awesome interacting with you ",Name, "... By the way I also like ", Interest,)
+print("It has been awesome interacting with you ",Name, "... Oh, and by the way I also like ", Interest,)
 input()
 
 	
