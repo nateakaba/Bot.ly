@@ -1,5 +1,5 @@
 # Bot.ly
 A Simple . Fun and Interactive Python Bot
 to run
-  Python Version 3.4
-  Please install gtts
+  |Python Version 3.4
+  |Please install gtts
