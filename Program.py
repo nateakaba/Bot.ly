@@ -1,11 +1,24 @@
-print("Welcome to a Demo App V1.1.0 $$Made by Sam Epodoi$$")
-Name = input("Enter Name:")
+
+from gtts import gTTS
+import os
+import winsound
+import platform
+winsound.PlaySound(r"welc.wav", winsound.SND_ASYNC)
+winsound.PlaySound( None, winsound.SND_ASYNC)
+winsound.PlaySound(r"name.wav", winsound.SND_ASYNC)
+winsound.PlaySound( None, winsound.SND_ASYNC)
+Name = input("Enter your Name:")
+winsound.PlaySound(r"color.wav", winsound.SND_ASYNC)
+winsound.PlaySound( None, winsound.SND_ASYNC)
 Color = input("Enter your Favorite Color: ")
+winsound.PlaySound(r"inter.wav", winsound.SND_ASYNC)
+winsound.PlaySound( None, winsound.SND_ASYNC)
 Interest = input("What do you like:  ")
-
-
-print("Hey", Name, "How's your day?" )
-
+x = "Hey" + Name + "How's your day?"
+tts = gTTS(text="x", lang='en')
+tts.save("n.wav")         #creates a file named n.wav
+winsound.Playsound( r'n.wav' , winsound.SND_ASYNC) #plays n.wav
+winsound.Playsound( None, winsound.SND_ASYNC)
 answer = input("good or bad: ")
 
 if (answer == "good"):
